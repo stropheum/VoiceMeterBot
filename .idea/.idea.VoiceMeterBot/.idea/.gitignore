@@ -35,6 +35,7 @@
 **/.idea/**/contentModel.xml
 **/.idea/**/modules.xml
 
+*.dll
 *.suo
 *.user
 .vs/
