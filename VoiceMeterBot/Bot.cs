@@ -35,31 +35,21 @@ public class Bot
     private async ValueTask OnVoiceStateUpdate(VoiceState arg)
     {
         LogOutputMessage("VoiceStateUpdate", JsonConvert.SerializeObject(arg));
-        
+
         // Don't handle events for when the bot joins
-        if (arg.UserId == _voiceClient.UserId)
-        {
-            return;
-        }
-        
+        if (arg.UserId == _voiceClient.UserId) return;
+
         if (arg.ChannelId == _voiceChannelId)
-        {
             await OnVoiceChannelJoined(arg);
-        }
         else
-        {
             await OnVoiceChannelLeft(arg);
-        }
         await Task.CompletedTask;
     }
 
     private ValueTask OnVoiceChannelJoined(VoiceState arg)
     {
         LogOutputMessage("VoiceChannelJoined", JsonConvert.SerializeObject(arg.User));
-        if (arg.User != null)
-        {
-            _users.Add(arg.User);
-        }
+        if (arg.User != null) _users.Add(arg.User);
 
         return ValueTask.CompletedTask;
     }
@@ -67,10 +57,7 @@ public class Bot
     private ValueTask OnVoiceChannelLeft(VoiceState arg)
     {
         LogOutputMessage("VoiceChannelLeft", JsonConvert.SerializeObject(arg.User));
-        if (arg.User != null)
-        {
-            _users.Remove(arg.User);
-        }
+        if (arg.User != null) _users.Remove(arg.User);
 
         return ValueTask.CompletedTask;
     }
@@ -85,9 +72,9 @@ public class Bot
             _guildId,
             _voiceChannelId,
             new VoiceClientConfiguration { RedirectInputStreams = true });
-            _voiceClient.Ready += VoiceClientOnReady;
-            _voiceClient.VoiceReceive += OnVoiceReceive;
-            await _voiceClient.StartAsync();
+        _voiceClient.Ready += VoiceClientOnReady;
+        _voiceClient.VoiceReceive += OnVoiceReceive;
+        await _voiceClient.StartAsync();
     }
 
     private ValueTask VoiceClientOnReady()
@@ -98,7 +85,7 @@ public class Bot
 
     private async ValueTask OnVoiceReceive(VoiceReceiveEventArgs arg)
     {
-        User user = _users.FirstOrDefault(x => x.Id == arg.UserId) ?? await _client.Rest.GetUserAsync(arg.UserId);
+        var user = _users.FirstOrDefault(x => x.Id == arg.UserId) ?? await _client.Rest.GetUserAsync(arg.UserId);
         _users.Add(user);
         var receivedArgs = new VoiceActivityEventArgs
         {
