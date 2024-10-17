@@ -71,9 +71,13 @@ public class Bot
             _user.Id,
             _guildId,
             _voiceChannelId,
-            new VoiceClientConfiguration { RedirectInputStreams = true });
+            new VoiceClientConfiguration
+            {
+                RedirectInputStreams = true
+            });
         _voiceClient.Ready += VoiceClientOnReady;
         _voiceClient.VoiceReceive += OnVoiceReceive;
+        _voiceClient.Log += OnLog;
         await _voiceClient.StartAsync();
     }
 

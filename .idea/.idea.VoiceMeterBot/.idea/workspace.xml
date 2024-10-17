@@ -8,9 +8,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="309ff7d8-d57f-43dc-a663-b6a74ef16567" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.VoiceMeterBot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VoiceMeterBot/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VoiceMeterBot/Bot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VoiceMeterBot/Bot.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VoiceMeterBot/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VoiceMeterBot/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VoiceMeterBot/VoiceMeterBot.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/VoiceMeterBot/VoiceMeterBot.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +21,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/57186e667b17423caea744871973c3d7bd6a00/00/1666954c/VoiceClient.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/57186e667b17423caea744871973c3d7bd6a00/1a/f28f8eae/VoiceState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/57186e667b17423caea744871973c3d7bd6a00/2e/71fefcdb/VoiceClientConfiguration.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/57186e667b17423caea744871973c3d7bd6a00/8a/abd9e8e8/GatewayClientExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/57186e667b17423caea744871973c3d7bd6a00/a0/8c31a728/JsonSpeaking.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/57186e667b17423caea744871973c3d7bd6a00/e5/cbee42f2/GatewayClient.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/970ca7a180bb490e8a87530f6d3846fadb08/c6/897005e6/EventLog.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
@@ -33,7 +43,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    ".NET Project.VoiceMeterBot.executor": "Run",
+    ".NET Project.VoiceMeterBot.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
@@ -74,6 +84,7 @@
       <updated>1729146459254</updated>
       <workItem from="1729146461198" duration="101000" />
       <workItem from="1729184467360" duration="780000" />
+      <workItem from="1729187595364" duration="3828000" />
     </task>
     <servers />
   </component>
@@ -84,63 +95,5 @@
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/VoiceMeterBot/Bot.cs</url>
-          <line>97</line>
-          <properties documentPath="E:\Users\strop\Documents\GitHub\VoiceMeterBot\VoiceMeterBot\Bot.cs" containingFunctionPresentation="Method 'OnVoiceReceive'">
-            <startOffsets>
-              <option value="2968" />
-            </startOffsets>
-            <endOffsets>
-              <option value="3044" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/VoiceMeterBot/Bot.cs</url>
-          <line>87</line>
-          <properties documentPath="E:\Users\strop\Documents\GitHub\VoiceMeterBot\VoiceMeterBot\Bot.cs" containingFunctionPresentation="Method 'OnVoiceReceive'">
-            <startOffsets>
-              <option value="2588" />
-            </startOffsets>
-            <endOffsets>
-              <option value="2693" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/VoiceMeterBot/Bot.cs</url>
-          <line>81</line>
-          <properties documentPath="E:\Users\strop\Documents\GitHub\VoiceMeterBot\VoiceMeterBot\Bot.cs" containingFunctionPresentation="Method 'VoiceClientOnReady'">
-            <startOffsets>
-              <option value="2403" />
-            </startOffsets>
-            <endOffsets>
-              <option value="2456" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/VoiceMeterBot/Bot.cs</url>
-          <line>74</line>
-          <properties documentPath="E:\Users\strop\Documents\GitHub\VoiceMeterBot\VoiceMeterBot\Bot.cs" containingFunctionPresentation="Method 'OnReady'">
-            <startOffsets>
-              <option value="2203" />
-            </startOffsets>
-            <endOffsets>
-              <option value="2244" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
