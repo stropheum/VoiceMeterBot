@@ -9,29 +9,37 @@
   <component name="ChangeListManager">
     <list default="true" id="309ff7d8-d57f-43dc-a663-b6a74ef16567" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VoiceMeterBot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VoiceMeterBot/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VoiceMeterBot.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/VoiceMeterBot.sln.DotSettings.user" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VoiceMeterBot/Bot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VoiceMeterBot/Bot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VoiceMeterBot/MessageLogModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VoiceMeterBot/MessageLogModel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VoiceMeterBot/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VoiceMeterBot/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VoiceMeterBot/VoiceMeterBot.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/VoiceMeterBot/VoiceMeterBot.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JSON File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/57186e667b17423caea744871973c3d7bd6a00/00/1666954c/VoiceClient.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/57186e667b17423caea744871973c3d7bd6a00/1a/f28f8eae/VoiceState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/57186e667b17423caea744871973c3d7bd6a00/2e/71fefcdb/VoiceClientConfiguration.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/57186e667b17423caea744871973c3d7bd6a00/8a/abd9e8e8/GatewayClientExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/57186e667b17423caea744871973c3d7bd6a00/8a/abd9e8e8/GatewayClientExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/57186e667b17423caea744871973c3d7bd6a00/a0/8c31a728/JsonSpeaking.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/57186e667b17423caea744871973c3d7bd6a00/e5/cbee42f2/GatewayClient.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/970ca7a180bb490e8a87530f6d3846fadb08/c6/897005e6/EventLog.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/29ea32a76b2a6b8eb246f247df6a6a86d887384b4c31db2a35effccdd86c24/JsonSerializerInternalReader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/e6641ef64e23bc021c22f7a836547714731db956d18c439bc734695b9e72/SafeFileHandle.Windows.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -41,19 +49,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Project.VoiceMeterBot.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Project.VoiceMeterBot.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="VoiceMeterBot" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="$PROJECT_DIR$/VoiceMeterBot/bin/Debug/net7.0/VoiceMeterBot.exe" />
@@ -84,7 +92,9 @@
       <updated>1729146459254</updated>
       <workItem from="1729146461198" duration="101000" />
       <workItem from="1729184467360" duration="780000" />
-      <workItem from="1729187595364" duration="3828000" />
+      <workItem from="1729187595364" duration="3969000" />
+      <workItem from="1729231430546" duration="593000" />
+      <workItem from="1729351019886" duration="2656000" />
     </task>
     <servers />
   </component>

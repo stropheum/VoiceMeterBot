@@ -16,12 +16,22 @@ public class Bot
 
     public Bot(string botToken, ulong guildId, ulong voiceChannelId)
     {
-        _client = new GatewayClient(new Token(TokenType.Bot, botToken), new GatewayClientConfiguration()
+        _client = new GatewayClient(new Token(TokenType.Bot, botToken), new GatewayClientConfiguration
         {
             Intents = GatewayIntents.All
         });
         _guildId = guildId;
         _voiceChannelId = voiceChannelId;
+    }
+
+    public Bot(BotConfig botConfig)
+    {
+        _client = new GatewayClient(new Token(TokenType.Bot, botConfig.BotToken), new GatewayClientConfiguration
+        {
+            Intents = GatewayIntents.All
+        });
+        _guildId = botConfig.GuildId;
+        _voiceChannelId = botConfig.VoiceChannelId;
     }
 
     public async Task Connect()

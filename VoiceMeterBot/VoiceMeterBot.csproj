@@ -14,4 +14,8 @@
         <PackageReference Include="System.Runtime.CompilerServices.Unsafe" Version="7.0.0-preview.2.22152.2"/>
     </ItemGroup>
 
+    <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+      <Exec Command="xcopy &quot;$(ProjectDir)config.json&quot; &quot;$(TargetDir)&quot; /Y /I&#xA;" />
+    </Target>
+
 </Project>

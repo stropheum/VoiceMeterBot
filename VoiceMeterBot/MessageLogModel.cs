@@ -6,5 +6,5 @@ namespace VoiceMeterBot;
 public class MessageLogModel
 {
     [JsonProperty] public string? Name { get; set; }
-    [JsonProperty] public string Payload { get; set; }
+    [JsonProperty] public string? Payload { get; set; }
 }
