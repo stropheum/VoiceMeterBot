@@ -8,7 +8,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="309ff7d8-d57f-43dc-a663-b6a74ef16567" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/VoiceMeterBot/config.template.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VoiceMeterBot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VoiceMeterBot/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +89,7 @@
       <workItem from="1729184467360" duration="780000" />
       <workItem from="1729187595364" duration="3969000" />
       <workItem from="1729231430546" duration="593000" />
-      <workItem from="1729351019886" duration="3323000" />
+      <workItem from="1729351019886" duration="3947000" />
     </task>
     <servers />
   </component>
