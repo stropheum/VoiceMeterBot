@@ -30,8 +30,8 @@ internal static class Program
             Console.WriteLine("Failed to parse config.json. Make sure config.json exists and contains data in format:\n" +
             "{\n" +
                 "\"BotToken\": \"teststring1234\"\n" +
-                "\"GuildID\": 123123123123123\n" +
                 "\"VoiceChannelID\": 123123123123123\n" +
+                "\"GuildID\": 123123123123123\n" +
             "}");
         }
     }
