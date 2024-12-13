@@ -8,7 +8,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="309ff7d8-d57f-43dc-a663-b6a74ef16567" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.VoiceMeterBot/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VoiceMeterBot/.idea/projectSettingsUpdater.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VoiceMeterBot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VoiceMeterBot/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VoiceMeterBot.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/VoiceMeterBot.sln.DotSettings.user" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +33,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/57186e667b17423caea744871973c3d7bd6a00/2e/71fefcdb/VoiceClientConfiguration.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/57186e667b17423caea744871973c3d7bd6a00/8a/abd9e8e8/GatewayClientExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/57186e667b17423caea744871973c3d7bd6a00/a0/8c31a728/JsonSpeaking.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/57186e667b17423caea744871973c3d7bd6a00/d3/12e6d29f/VoiceReceiveEventArgs.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/57186e667b17423caea744871973c3d7bd6a00/e5/cbee42f2/GatewayClient.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/970ca7a180bb490e8a87530f6d3846fadb08/c6/897005e6/EventLog.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/29ea32a76b2a6b8eb246f247df6a6a86d887384b4c31db2a35effccdd86c24/JsonSerializerInternalReader.cs" root0="FORCE_HIGHLIGHTING" />
@@ -90,6 +93,7 @@
       <workItem from="1729187595364" duration="3969000" />
       <workItem from="1729231430546" duration="593000" />
       <workItem from="1729351019886" duration="3947000" />
+      <workItem from="1729643601593" duration="920000" />
     </task>
     <servers />
   </component>
@@ -98,7 +102,6 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
-    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
 </project>
